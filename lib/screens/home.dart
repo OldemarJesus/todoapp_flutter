@@ -22,7 +22,9 @@ class _HomeState extends State<Home> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("To-Do"),
+        title: Center(
+          child: Text("To-Do"),
+        ),
         backgroundColor: Colors.blue[600],
       ),
       body: Padding(

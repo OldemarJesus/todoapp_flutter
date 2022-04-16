@@ -22,7 +22,9 @@ class _AddState extends State<Add> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("To-do Add"),
+        title: Center(
+          child: Text("To-do Add"),
+        ),
         backgroundColor: Colors.blue[600],
       ),
       body: Padding(
